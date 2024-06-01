@@ -1,0 +1,13 @@
+git clone https://github.com/your-username/my-short-repo.git
+
+cd my-short-repo
+
+echo -e "#!/bin/bash\n\necho \"Hello, world!\"" > script.sh
+
+chmod +x script.sh
+
+git add script.sh
+
+git commit -m "Add script.sh"
+
+git push origin main 
